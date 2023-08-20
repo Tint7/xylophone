@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.XylophoneController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="59.0" prefWidth="492.0" style="-fx-background-color: silver;">
+         <children>
+            <Label text="XYLOPHONE">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="2.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Rectangle fx:id="node1" arcHeight="5.0" arcWidth="5.0" fill="#de8c5f" height="245.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node2" arcHeight="5.0" arcWidth="5.0" fill="#d2de5d" height="245.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node3" arcHeight="5.0" arcWidth="5.0" fill="#09ca7a" height="245.0" layoutX="70.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node4" arcHeight="5.0" arcWidth="5.0" fill="#ee3b4d" height="245.0" layoutX="130.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node5" arcHeight="5.0" arcWidth="5.0" fill="#1912e1" height="245.0" layoutX="190.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node6" arcHeight="5.0" arcWidth="5.0" fill="#e50ea5" height="245.0" layoutX="250.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node7" arcHeight="5.0" arcWidth="5.0" fill="#e8e1ba" height="245.0" layoutX="310.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Rectangle fx:id="node8" arcHeight="5.0" arcWidth="5.0" fill="#2fb2d3" height="245.0" layoutX="370.0" layoutY="10.0" onMouseClicked="#playSound" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
